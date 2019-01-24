@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/johannaMC/precache-manifest.c6f7937b9a74db158f9c267618eff326.js"
+  "/JohannaMc/precache-manifest.210a0cbb3e601cd6dd95e8b0bdead839.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/johannaMC/index.html", {
+workbox.routing.registerNavigationRoute("/JohannaMc/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
